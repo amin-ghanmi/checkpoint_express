@@ -1,0 +1,26 @@
+.navbar{
+    background-color: aqua;
+    height: 60px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar ul li{
+    margin-top: 20px;
+    list-style: none;
+    font-size: 25px;
+}
+.navbar ul a{
+    text-decoration: none;
+}
+
+.text{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 10px;
+
+}
