@@ -23,5 +23,5 @@ app.use(express.static("public"));
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, (err) => err ?
     console.error(err) :
-    console.log('the server is running...')
+    console.log(`the server is running on port: ${PORT}...`)
 );
